@@ -1,4 +1,4 @@
-#step 1     IMPORTING LIBRARIES
+#step 1 IMPORTING LIBRARIES
 import json
 import re
 import random_responses
@@ -37,7 +37,7 @@ def get_response(input_string):
 
 # HANDLING THE EMPTY OUTPUT 
     if input_string=="":
-        return "please type something so that we can chat:"
+        return "please type something so that we can have a chat:"
 # RETUNRING THE BEST RESPONSE OR RANDOM REPLY  
     if best_response!=0:
         return responses_data[response_index]["bot_response"]
